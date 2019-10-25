@@ -1,0 +1,5 @@
+#Reports and Screenshots
+target/
+test-output/
+!test-output/index.html
+!test-output/ExtentReportsTestNG.html

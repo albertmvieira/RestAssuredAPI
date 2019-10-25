@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="resources.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="REST API">
+		<classes>
+			<class name="tests.getPlace_Google_API_log" />
+			<class name="tests.GetTwiteesUser" />
+			<class name="tests.basicGet" />
+			<class name="tests.StaticJson" />
+			<class name="tests.DynamicJson" />
+			<class name="tests.basicPost_Delete" />
+			<!-- <class name="tests.basicPostXML"/> -->
+			<class name="tests.basicPost" />
+			<class name="tests.Oauth2GetCourse" />
+		</classes>
+	</test> <!-- REST API -->
+</suite> <!-- Suite -->
