@@ -52,7 +52,7 @@ public class reusableMethods {
 		RestAssured.baseURI = "http://localhost:8080";
 		
 		Response resAuth = given().header("Content-Type", "application/json").
-		body("{	\"username\": \"albertmvieira\", \"password\": \"helen221109\" }").
+		body("{	\"username\": \"albertmvieira\", \"password\": \"hxxxxxxxx9\" }").
 		when().
 		post("/rest/auth/1/session").then().statusCode(200).
 		extract().response();
